@@ -1,6 +1,10 @@
 /* IMPOSTAZIONI GENERALI */
 body{
     background-image:url(../img/sfondo.png);
+    
+}
+h3{
+    text-align: center;
 }
 /* HEADER */
 header{
@@ -9,6 +13,7 @@ width: 270px;
     padding: 30px;
     background-color: teal;
  flex-direction: column;  
+ align-items: center;
     margin: 0 auto; 
     text-align: center;
     color: white;
@@ -22,7 +27,7 @@ width: 270px;
 /* MAIN */
 main{
     width: 270px;
-    height: 1900px;
+    height: 1150px;
     padding: 30px;
     background-color: white;
  flex-direction: column;  
@@ -30,7 +35,7 @@ main{
     text-align: left;
     font-size: medium;
    
- ;
+ 
  margin-top: 10px;
 }
 
@@ -51,8 +56,8 @@ i{
     background-color: gray;
     padding: 5%;
 }
-legend{
-    text-align: center;
+iframe{
+    
 }
 /* TABELLE */
 .table{
@@ -64,7 +69,43 @@ thead{
 }
 
 /* FORM */
-
+form{
+    background-color: gray;
+    padding: 20px; 
+   
+    height: 250px;
+}
 /* ELEMENTI NELL' ASIDE */
+aside{
+    width: 270px;
+    height: 350px;
+    padding: 30px;
+    background-color: white;
+ flex-direction: column;  
+    margin: 0 auto; 
+    text-align: left;
+    font-size: medium;
+}
+
 
 /* FOOTER */
+footer{
+    width: 270px;
+    height: 240px;
+    padding: 30px;
+    background-color: white;
+    
+ flex-direction: column;  
+    margin: 0 auto; 
+    text-align: left;
+    font-size: medium;
+}
+.footer{
+    background-color: teal;
+    padding: 20px;
+}
+.Articoli{
+    background-color: gray;
+    padding: 20px;
+    margin-bottom: 10px;
+}
