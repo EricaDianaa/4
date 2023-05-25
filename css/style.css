@@ -62,10 +62,17 @@ iframe{
 /* TABELLE */
 .table{
     border: 1px solid gray;
-    
+    font-size: large;
+}
+#table{
+    border: 2px solid gray;
+    padding: 50px;
 }
 thead{
     background-color: blue;
+}
+caption{
+    text-align: center;
 }
 
 /* FORM */
