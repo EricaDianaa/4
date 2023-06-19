@@ -1,15 +1,26 @@
 /* IMPOSTAZIONI GENERALI */
 body{
     background-image:url(../img/sfondo.png);
+    width: 100%;
     
 }
 h3{
     text-align: center;
+    font-size: 1.3em;
+}
+h1{
+    font-size: 3em;
+}
+h2{
+   
+    font-size: 1.7em;
+}
+p,li{
+    font-size: 0.9em;
 }
 /* HEADER */
 header{
-width: 270px;
-    height: 200px;
+width: 300px;
     padding: 30px;
     background-color: teal;
  flex-direction: column;  
@@ -26,7 +37,7 @@ width: 270px;
 }
 /* MAIN */
 main{
-    width: 270px;
+    width: 300px;
     height: 1150px;
     padding: 30px;
     background-color: white;
@@ -43,10 +54,7 @@ main{
 .fucsia{
   color: mediumvioletred;
 }
-h2{
-   
-    font-size: 2em;
-}
+
 i{
     width: 30em;
     flex-direction: row;
@@ -67,25 +75,50 @@ iframe{
 #table{
     border: 2px solid gray;
     padding: 50px;
+
 }
-thead{
+caption {
+    font-weight: bold;
+    font-style: italic;
+}
+thead tr {
+    background-color: #3f6bca;
+    color: #ffffff;
+}
+th, td {
+    padding: 12px 15px;
+    vertical-align: bottom;
+    text-align: center;
+}
+tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+tbody tr:last-of-type {
+    border-bottom: 2px solid #3f6bca;
+}
+/* thead{
     background-color: blue;
-}
+} */
 caption{
     text-align: center;
 }
 
 /* FORM */
 form{
-    background-color: gray;
-    padding: 20px; 
-   
-    height: 250px;
+    background-color: rgb(212, 212, 212);
+    padding: 15px;
+    font-size: 0.8em;
+  
 }
 /* ELEMENTI NELL' ASIDE */
 aside{
-    width: 270px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     padding: 30px;
     background-color: white;
  flex-direction: column;  
@@ -97,22 +130,38 @@ aside{
 
 /* FOOTER */
 footer{
-    width: 270px;
-    height: 240px;
+    width: 300px;
+  
     padding: 30px;
     background-color: white;
     
  flex-direction: column;  
     margin: 0 auto; 
-    text-align: left;
+    text-align: center;
     font-size: medium;
 }
 .footer{
     background-color: teal;
     padding: 20px;
+    color: white;
+}
+footer a{
+    color: rgb(240, 30, 240);
+}
+a{
+    color:rgba(39, 187, 236, 0.89) ;
 }
 .Articoli{
-    background-color: gray;
+    background-color: rgb(212, 212, 212);
     padding: 20px;
     margin-bottom: 10px;
+}
+.Articoli a{
+color: rgba(39, 187, 236, 0.89);
+}
+.novità{
+    background-color: gray;
+}
+input{
+    border-bottom: dotted 1px
 }
